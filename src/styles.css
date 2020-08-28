@@ -1,0 +1,7 @@
+/* Styles for `my-element` */
+/* Test strings: `, \`, \, \\, ${, \${, ${1 + 2}  */
+:host {
+  content: '${';
+  font-size: 20px;
+  color: salmon;
+}
